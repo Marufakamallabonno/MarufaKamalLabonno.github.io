@@ -1,0 +1,259 @@
+/* nav item */
+@font-face {
+  font-family: Calisto-MT;
+  src: url(fonts/Calisto-MT.ttf); 
+  }
+
+@font-face {
+  font-family: 'Calisto-MT-Italic';
+  src: url(fonts/Calisto-MT-Italic.ttf); }
+
+@font-face {
+  font-family: 'Calisto-MT-Bold';
+  src: url(fonts/Calisto-MT-Bold.ttf);
+  }
+
+a.nav-item {
+		color: #c4a99e;
+
+
+	font-size:25px;
+	
+}
+
+
+a.nav-item:hover {
+	color: #fff;
+
+	font-size:25px;
+	
+}
+
+
+/*Header top  */
+
+.curved-div {
+  background: #000;
+  color: #FFF;
+  text-align: center;
+}
+.curved-div h1 {
+  font-size: 6rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.curved-div h1{
+	font-size:30px;
+	font-family: 'Calisto-MT-Bold';
+	letter-spacing: 3px;
+	margin-top:0px;
+	text-shadow: 2px 2px 4px #c18f59;
+
+	
+}
+ 
+ 
+.curved-div h2{
+	
+	margin-left: -140px;
+	font-family: Calisto-MT;
+	font-weight: bold;
+	color: #c4a99e;
+	font-size:20px;
+  
+}
+.curved-div svg {
+  display: block;
+}
+.curved-div svg image{
+	
+	width:40%;
+	height:140%;
+
+}
+/*About mee section */
+
+.about-me{
+	
+background-color: #d0b0b1;
+background-image: linear-gradient(315deg, #d0b0b1 0%, #d0c5cd 74%);
+opacity:0.5;
+}
+.about-me-details{
+	
+	float:right;
+}
+
+
+
+/* Navigation 
+.navbar-nav > li > a {
+    padding: 5px 0;
+    font-weight: 600;
+    color: #212121;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.25s ease-in-out;
+    -moz-transition: border-color 0.25s ease-in-out;
+    -webkit-transition: border-color 0.25s ease-in-out;
+    -o-transition: border-color 0.25s ease-in-out;
+    -ms-transition: border-color 0.25s ease-in-out;
+}
+
+.navbar-nav.navbar-right {
+    margin-right: 0;
+}
+
+.navbar-nav > li + li > a {
+    margin-left: 40px;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li.active > a,
+.nav > li > a:hover,
+.nav > li.active > a {
+    background-color: transparent;
+    border-bottom: 2px solid #212121;
+}
+
+.nav > li > a:focus {
+    background-color: transparent;
+}*/
+
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: #000;
+
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #fff;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+
+}
