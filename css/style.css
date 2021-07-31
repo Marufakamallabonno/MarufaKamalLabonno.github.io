@@ -361,7 +361,7 @@ a.nav-item {
 li.mail{
 	color: #c4a99e;
 	font-size:25px;
-	padding:0px;
+	padding:-20px;
 }
 
 a.nav-item:hover {
