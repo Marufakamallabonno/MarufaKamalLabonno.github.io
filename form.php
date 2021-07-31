@@ -23,30 +23,30 @@ if (isset($_POST['submit'])) {
     echo "Please fill in any missing fields!";
       } 
 
-      else {
+	else {
 
-// Checking if email is valid with filter_var() function 
-// FILTER_VALIDATE_EMAIL used as parameter to check email validity
+	// Checking if email is valid with filter_var() function 
+	// FILTER_VALIDATE_EMAIL used as parameter to check email validity
 
-if(!filter_var($email, FILTER_VALIDATE_EMAIL ))  {
-  //header("Location: index.php?invalidemail");
-  echo "Please enter a valid email address.";
-}
-      // Send the email if no errors are found
-      else {
+	if(!filter_var($email, FILTER_VALIDATE_EMAIL ))  {
+	  //header("Location: index.php?invalidemail");
+	  echo "Please enter a valid email address.";
+	}
+		  // Send the email if no errors are found
+		  else {
 
-// mail() function allows for the sending of emails
-// Three parameters must be passed for the mail() function to work.
-// 1. Email address of the recipient
-// 2. The subject line of the email
-// 3. The message
+	// mail() function allows for the sending of emails
+	// Three parameters must be passed for the mail() function to work.
+	// 1. Email address of the recipient
+	// 2. The subject line of the email
+	// 3. The message
 
-mail($recipient, $subject, $txt, $headers);
+	mail($recipient, $subject, $txt, $headers);
 
 
-header("Location: index.html?mailsend");
-      }
-    }
+	header("Location: index.html?mailsend");
+		  }
+		}
 
 
 
