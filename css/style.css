@@ -516,7 +516,7 @@ a.nav-item:hover {
 }
 
 }
-@media (min-width: 550px) and (max-width: 575px) { 
+@media (min-width: 570px) and (max-width: 575px) { 
  .curved-div svg {
  display:block;
  height:300px;
@@ -562,7 +562,7 @@ a.nav-item:hover {
 	}
 
 }
-@media (max-width: 549px) { 
+@media (max-width: 569px) { 
  .curved-div svg {
  display:block;
  height:300px;
