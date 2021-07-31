@@ -153,6 +153,7 @@ a:hover {
 .title-left {
   font-size: 2rem;
   position: relative;
+  
 }
 
 .title-left:before {
@@ -167,6 +168,7 @@ a:hover {
   font-size: 2rem;
   position: relative;
   text-align:centre;
+  align-content:center;
 }
 
 .title-left2:before {
