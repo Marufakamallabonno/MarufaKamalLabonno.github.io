@@ -163,7 +163,22 @@ a:hover {
   width: 100px;
   bottom: -12px;
 }
+.title-left2 {
+  font-size: 2rem;
+  position: relative;
+  text-align:centre;
+}
 
+.title-left2:before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #c4a99e;
+  width: 100px;
+  
+  text-align:centre;
+  bottom: -12px;
+}
 /*------/ Box /------*/
 
 .box-pl2 {
