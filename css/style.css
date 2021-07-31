@@ -354,17 +354,18 @@ font-weight:bold;	  }
   }
 
 a.nav-item {
-		color: #c4a99e;
-
-
+	color: #c4a99e;
 	font-size:25px;
 	
 }
-
+li.mail{
+	color: #c4a99e;
+	font-size:25px;
+	padding:0px;
+}
 
 a.nav-item:hover {
 	color: #fff;
-
 	font-size:25px;
 	
 }
