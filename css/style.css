@@ -359,9 +359,9 @@ a.nav-item {
 	
 }
 li.mail{
-	color: #c4a99e;
-	font-size:25px;
-	padding:-20px;
+	
+	font-size:20px;
+	padding-left:-20px;
 }
 
 a.nav-item:hover {
